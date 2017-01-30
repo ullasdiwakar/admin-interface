@@ -126,3 +126,5 @@ os.path.join(BASE_DIR, "dashboard/static"),
 ]
 
 LOGIN_REDIRECT_URL = '/' # It means home view
+
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
