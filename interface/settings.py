@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'dashboard',
+    'user_auth',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -123,6 +124,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
 os.path.join(BASE_DIR, "dashboard/static"),
+os.path.join(BASE_DIR, "user_auth/static"),
 ]
 
 LOGIN_REDIRECT_URL = '/' # It means home view
